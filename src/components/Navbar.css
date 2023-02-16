@@ -1,0 +1,43 @@
+nav {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+}
+
+nav h3 {
+  margin: 1rem;
+  font-weight: 500;
+  color: gray;
+}
+
+ul {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem;
+}
+
+li {
+  list-style: none;
+  margin: 1rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: gray;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+  color: rgb(85, 83, 83);
+}
+
+nav button {
+  border: 2px solid #2aa4e2;
+  padding: 1rem;
+  border-radius: 11px;
+  color: #2aa4e2;
+  font-weight: 700;
+}
